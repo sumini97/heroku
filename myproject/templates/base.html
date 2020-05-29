@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'likelion/css/style.css' %}">
+</head>
+
+<body>
+    <div class="nav">
+        <div id="logo">
+
+        </div>
+        <ul class="right-nav">
+            <li>HOME</li>
+            <li>History</li>
+            <li>Portfolio</li>
+        </ul>
+    </div>
+    베이스가 잘됩니다.
+    {% block content %}
+
+    {% endblock %}
+</body>
+
+</html>
